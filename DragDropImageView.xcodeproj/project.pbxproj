@@ -14,6 +14,7 @@
 		884E8A1E20E4E9120016E035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A1D20E4E9120016E035 /* main.m */; };
 		884E8A2920E4E9120016E035 /* DragDropImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A2820E4E9120016E035 /* DragDropImageViewTests.m */; };
 		884E8A3420E4E9120016E035 /* DragDropImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A3320E4E9120016E035 /* DragDropImageViewUITests.m */; };
+		884E8A4320E4E92F0016E035 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A4120E4E92F0016E035 /* DragDropImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		884E8A2F20E4E9120016E035 /* DragDropImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884E8A3320E4E9120016E035 /* DragDropImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropImageViewUITests.m; sourceTree = "<group>"; };
 		884E8A3520E4E9120016E035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E8A4120E4E92F0016E035 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		884E8A4220E4E92F0016E035 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				884E8A1220E4E9100016E035 /* AppDelegate.m */,
 				884E8A1420E4E9100016E035 /* ViewController.h */,
 				884E8A1520E4E9100016E035 /* ViewController.m */,
+				884E8A4220E4E92F0016E035 /* DragDropImageView.h */,
+				884E8A4120E4E92F0016E035 /* DragDropImageView.m */,
 				884E8A1720E4E9120016E035 /* Assets.xcassets */,
 				884E8A1920E4E9120016E035 /* Main.storyboard */,
 				884E8A1C20E4E9120016E035 /* Info.plist */,
@@ -263,6 +268,7 @@
 				884E8A1620E4E9100016E035 /* ViewController.m in Sources */,
 				884E8A1E20E4E9120016E035 /* main.m in Sources */,
 				884E8A1320E4E9100016E035 /* AppDelegate.m in Sources */,
+				884E8A4320E4E92F0016E035 /* DragDropImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

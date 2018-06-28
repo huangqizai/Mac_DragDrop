@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DragDropImageView.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,DragDropViewDelegate>
 
+@property (nonatomic, strong) DragDropImageView *drapDropImageView;
 
 @end
 
