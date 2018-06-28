@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884E8A1320E4E9100016E035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A1220E4E9100016E035 /* AppDelegate.m */; };
+		884E8A1620E4E9100016E035 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A1520E4E9100016E035 /* ViewController.m */; };
+		884E8A1820E4E9120016E035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884E8A1720E4E9120016E035 /* Assets.xcassets */; };
+		884E8A1B20E4E9120016E035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884E8A1920E4E9120016E035 /* Main.storyboard */; };
+		884E8A1E20E4E9120016E035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A1D20E4E9120016E035 /* main.m */; };
+		884E8A2920E4E9120016E035 /* DragDropImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A2820E4E9120016E035 /* DragDropImageViewTests.m */; };
+		884E8A3420E4E9120016E035 /* DragDropImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E8A3320E4E9120016E035 /* DragDropImageViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884E8A2520E4E9120016E035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884E8A0620E4E9100016E035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884E8A0D20E4E9100016E035;
+			remoteInfo = DragDropImageView;
+		};
+		884E8A3020E4E9120016E035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884E8A0620E4E9100016E035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884E8A0D20E4E9100016E035;
+			remoteInfo = DragDropImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		884E8A0E20E4E9100016E035 /* DragDropImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E8A1120E4E9100016E035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884E8A1220E4E9100016E035 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884E8A1420E4E9100016E035 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		884E8A1520E4E9100016E035 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		884E8A1720E4E9120016E035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884E8A1A20E4E9120016E035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		884E8A1C20E4E9120016E035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E8A1D20E4E9120016E035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884E8A1F20E4E9120016E035 /* DragDropImageView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragDropImageView.entitlements; sourceTree = "<group>"; };
+		884E8A2420E4E9120016E035 /* DragDropImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E8A2820E4E9120016E035 /* DragDropImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropImageViewTests.m; sourceTree = "<group>"; };
+		884E8A2A20E4E9120016E035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E8A2F20E4E9120016E035 /* DragDropImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E8A3320E4E9120016E035 /* DragDropImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropImageViewUITests.m; sourceTree = "<group>"; };
+		884E8A3520E4E9120016E035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884E8A0B20E4E9100016E035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2120E4E9120016E035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2C20E4E9120016E035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884E8A0520E4E9100016E035 = {
+			isa = PBXGroup;
+			children = (
+				884E8A1020E4E9100016E035 /* DragDropImageView */,
+				884E8A2720E4E9120016E035 /* DragDropImageViewTests */,
+				884E8A3220E4E9120016E035 /* DragDropImageViewUITests */,
+				884E8A0F20E4E9100016E035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884E8A0F20E4E9100016E035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884E8A0E20E4E9100016E035 /* DragDropImageView.app */,
+				884E8A2420E4E9120016E035 /* DragDropImageViewTests.xctest */,
+				884E8A2F20E4E9120016E035 /* DragDropImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884E8A1020E4E9100016E035 /* DragDropImageView */ = {
+			isa = PBXGroup;
+			children = (
+				884E8A1120E4E9100016E035 /* AppDelegate.h */,
+				884E8A1220E4E9100016E035 /* AppDelegate.m */,
+				884E8A1420E4E9100016E035 /* ViewController.h */,
+				884E8A1520E4E9100016E035 /* ViewController.m */,
+				884E8A1720E4E9120016E035 /* Assets.xcassets */,
+				884E8A1920E4E9120016E035 /* Main.storyboard */,
+				884E8A1C20E4E9120016E035 /* Info.plist */,
+				884E8A1D20E4E9120016E035 /* main.m */,
+				884E8A1F20E4E9120016E035 /* DragDropImageView.entitlements */,
+			);
+			path = DragDropImageView;
+			sourceTree = "<group>";
+		};
+		884E8A2720E4E9120016E035 /* DragDropImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				884E8A2820E4E9120016E035 /* DragDropImageViewTests.m */,
+				884E8A2A20E4E9120016E035 /* Info.plist */,
+			);
+			path = DragDropImageViewTests;
+			sourceTree = "<group>";
+		};
+		884E8A3220E4E9120016E035 /* DragDropImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884E8A3320E4E9120016E035 /* DragDropImageViewUITests.m */,
+				884E8A3520E4E9120016E035 /* Info.plist */,
+			);
+			path = DragDropImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884E8A0D20E4E9100016E035 /* DragDropImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E8A3820E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageView" */;
+			buildPhases = (
+				884E8A0A20E4E9100016E035 /* Sources */,
+				884E8A0B20E4E9100016E035 /* Frameworks */,
+				884E8A0C20E4E9100016E035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDropImageView;
+			productName = DragDropImageView;
+			productReference = 884E8A0E20E4E9100016E035 /* DragDropImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884E8A2320E4E9120016E035 /* DragDropImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E8A3B20E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageViewTests" */;
+			buildPhases = (
+				884E8A2020E4E9120016E035 /* Sources */,
+				884E8A2120E4E9120016E035 /* Frameworks */,
+				884E8A2220E4E9120016E035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884E8A2620E4E9120016E035 /* PBXTargetDependency */,
+			);
+			name = DragDropImageViewTests;
+			productName = DragDropImageViewTests;
+			productReference = 884E8A2420E4E9120016E035 /* DragDropImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884E8A2E20E4E9120016E035 /* DragDropImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E8A3E20E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageViewUITests" */;
+			buildPhases = (
+				884E8A2B20E4E9120016E035 /* Sources */,
+				884E8A2C20E4E9120016E035 /* Frameworks */,
+				884E8A2D20E4E9120016E035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884E8A3120E4E9120016E035 /* PBXTargetDependency */,
+			);
+			name = DragDropImageViewUITests;
+			productName = DragDropImageViewUITests;
+			productReference = 884E8A2F20E4E9120016E035 /* DragDropImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884E8A0620E4E9100016E035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = FYCK;
+				TargetAttributes = {
+					884E8A0D20E4E9100016E035 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					884E8A2320E4E9120016E035 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 884E8A0D20E4E9100016E035;
+					};
+					884E8A2E20E4E9120016E035 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 884E8A0D20E4E9100016E035;
+					};
+				};
+			};
+			buildConfigurationList = 884E8A0920E4E9100016E035 /* Build configuration list for PBXProject "DragDropImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884E8A0520E4E9100016E035;
+			productRefGroup = 884E8A0F20E4E9100016E035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884E8A0D20E4E9100016E035 /* DragDropImageView */,
+				884E8A2320E4E9120016E035 /* DragDropImageViewTests */,
+				884E8A2E20E4E9120016E035 /* DragDropImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884E8A0C20E4E9100016E035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E8A1820E4E9120016E035 /* Assets.xcassets in Resources */,
+				884E8A1B20E4E9120016E035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2220E4E9120016E035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2D20E4E9120016E035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884E8A0A20E4E9100016E035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E8A1620E4E9100016E035 /* ViewController.m in Sources */,
+				884E8A1E20E4E9120016E035 /* main.m in Sources */,
+				884E8A1320E4E9100016E035 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2020E4E9120016E035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E8A2920E4E9120016E035 /* DragDropImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E8A2B20E4E9120016E035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E8A3420E4E9120016E035 /* DragDropImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884E8A2620E4E9120016E035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884E8A0D20E4E9100016E035 /* DragDropImageView */;
+			targetProxy = 884E8A2520E4E9120016E035 /* PBXContainerItemProxy */;
+		};
+		884E8A3120E4E9120016E035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884E8A0D20E4E9100016E035 /* DragDropImageView */;
+			targetProxy = 884E8A3020E4E9120016E035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884E8A1920E4E9120016E035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884E8A1A20E4E9120016E035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884E8A3620E4E9120016E035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		884E8A3720E4E9120016E035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		884E8A3920E4E9120016E035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DragDropImageView/DragDropImageView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		884E8A3A20E4E9120016E035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DragDropImageView/DragDropImageView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		884E8A3C20E4E9120016E035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDropImageView.app/Contents/MacOS/DragDropImageView";
+			};
+			name = Debug;
+		};
+		884E8A3D20E4E9120016E035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDropImageView.app/Contents/MacOS/DragDropImageView";
+			};
+			name = Release;
+		};
+		884E8A3F20E4E9120016E035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragDropImageView;
+			};
+			name = Debug;
+		};
+		884E8A4020E4E9120016E035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DragDropImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhyx.fykc.DragDropImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragDropImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884E8A0920E4E9100016E035 /* Build configuration list for PBXProject "DragDropImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E8A3620E4E9120016E035 /* Debug */,
+				884E8A3720E4E9120016E035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E8A3820E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E8A3920E4E9120016E035 /* Debug */,
+				884E8A3A20E4E9120016E035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E8A3B20E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E8A3C20E4E9120016E035 /* Debug */,
+				884E8A3D20E4E9120016E035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E8A3E20E4E9120016E035 /* Build configuration list for PBXNativeTarget "DragDropImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E8A3F20E4E9120016E035 /* Debug */,
+				884E8A4020E4E9120016E035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884E8A0620E4E9100016E035 /* Project object */;
+}
